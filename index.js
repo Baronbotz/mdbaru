@@ -157,12 +157,12 @@ mentions: [num],
 fileName: `Welcome To ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `©BARON 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Don't forget to smile today`,
-body: `SUBSCRIBE DRIPS OFC`,
+body: `FOLLOW IG baron_store01`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -185,12 +185,12 @@ mentions: [num],
 fileName: `He/She is gone bro ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `©BARON 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `BYE DONT COME BACK HERE OKAY`,
-body: `SUBSCRIBE DRIPS OFC`,
+body: `FOLLOW IG baron_store01`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -244,7 +244,7 @@ ZimBotInc.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:DRIPS\nitem2.EMAIL;type=INTERNET:reinhardtuna@mail.uk\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/zimb-bot/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;ZIMBABWE;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:DRIPS\nitem2.EMAIL;type=INTERNET:baron@mail.uk\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;baron_store01;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
